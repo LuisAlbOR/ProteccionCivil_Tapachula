@@ -1,5 +1,4 @@
-# ProteccionCivil_Tapachula
-🛡️ Protección Civil Tapachula - Plataforma Informativa
+#🛡️ Protección Civil Tapachula - Plataforma Informativa
 "Prevenir es Vivir, Proteger es nuestra Misión"
 
 Esta plataforma web es una iniciativa diseñada para la organización gubernamental de Protección Civil en Tapachula, Chiapas. Su objetivo principal es centralizar la difusión de trámites, eventos, noticias preventivas y servicios ciudadanos en una interfaz moderna, accesible y de rápida respuesta.
