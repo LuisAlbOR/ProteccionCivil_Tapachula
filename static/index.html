@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protección Civil Tapachula - Preventiva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .bg-pc-orange {
+            background-color: #FF8C00;
+        }
+
+        .text-pc-orange {
+            color: #FF8C00;
+        }
+
+        .border-pc-orange {
+            border-color: #FF8C00;
+        }
+
+        .bg-pc-gray {
+            background-color: #F3F4F6;
+        }
+
+        /* Gris claro */
+        .bg-pc-dark-gray {
+            background-color: #374151;
+        }
+
+        /* Gris oscuro para contraste */
+    </style>
+</head>
+
+<body class="bg-white text-gray-800 font-sans">
+
+    <a href="tel:#"
+        class="fixed bottom-6 right-6 z-50 bg-pc-orange text-white p-4 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform md:hidden">
+        <i class="fas fa-phone-alt text-2xl"></i>
+    </a>
+
+    <div class="bg-pc-dark-gray text-white py-2 px-6 flex justify-between items-center text-sm">
+        <div class="italic font-light">
+            "Prevenir es Vivir, Proteger es nuestra Misión"
+        </div>
+        <div class="hidden md:flex items-center gap-4">
+            <span class="font-bold uppercase tracking-wider">Llamada Directa:</span>
+            <a href="tel:#" class="bg-pc-orange px-3 py-1 rounded font-bold hover:bg-orange-600 transition">
+                <i class="fas fa-phone-alt mr-2"></i> [Número por definir]
+            </a>
+        </div>
+    </div>
+
+    <header class="bg-white border-b border-gray-200 py-6">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-pc-orange rounded flex items-center justify-center text-white font-bold">PC
+                </div>
+                <h1 class="text-2xl font-bold uppercase tracking-tighter">Protección Civil <span
+                        class="text-pc-orange">Tapachula</span></h1>
+            </div>
+            <nav class="hidden lg:flex gap-8 font-semibold uppercase text-xs tracking-widest text-gray-500">
+                <a href="#atlas" class="hover:text-pc-orange transition">Atlas de Riesgo</a>
+                <a href="#capacitacion" class="hover:text-pc-orange transition">Capacitaciones</a>
+                <a href="#noticias" class="hover:text-pc-orange transition">Noticias y Puntos</a>
+                <a href="#contacto" class="hover:text-pc-orange transition">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-pc-gray py-20 border-b border-gray-200">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-5xl font-black text-gray-900 leading-tight mb-6 italic uppercase">La prevención es
+                    <br><span class="text-pc-orange">nuestra mayor</span> protección.</h2>
+                <p class="text-gray-600 text-lg mb-8">Gestión integral de riesgos para salvaguardar la integridad de los
+                    tapachultecos ante cualquier contingencia natural o humana.</p>
+                <div class="flex gap-4">
+                    <a href="#atlas"
+                        class="bg-pc-orange text-white px-8 py-4 rounded font-bold uppercase text-sm shadow-lg hover:bg-orange-600 transition">Consultar
+                        Mapas</a>
+                    <a href="tel:#"
+                        class="border-2 border-pc-orange text-pc-orange px-8 py-4 rounded font-bold uppercase text-sm hover:bg-pc-orange hover:text-white transition">Llamar
+                        Ahora</a>
+                </div>
+            </div>
+            <div
+                class="bg-gray-300 h-80 rounded-2xl shadow-inner flex items-center justify-center text-gray-500 italic">
+                [Imagen Institucional: Brigadistas o Paisaje de Tapachula]
+            </div>
+        </div>
+    </section>
+
+    <section id="atlas" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold uppercase mb-2">Atlas de Riesgo Municipal</h3>
+                <div class="w-24 h-1 bg-pc-orange mx-auto"></div>
+                <p class="mt-4 text-gray-500">Consulta los mapas de indicadores de riesgo en el municipio.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-pc-gray p-6 rounded-lg border-b-4 border-pc-orange group hover:shadow-xl transition">
+                    <i class="fas fa-house-flood-water text-4xl text-pc-orange mb-4"></i>
+                    <h4 class="font-bold text-xl mb-2">Zonas de Inundación</h4>
+                    <p class="text-sm text-gray-600 mb-4">Ubicación de colonias y zonas vulnerables durante la temporada
+                        de lluvias.</p>
+                    <button class="text-xs font-bold uppercase text-pc-orange group-hover:underline">Ver Mapa
+                        Interactivo →</button>
+                </div>
+                <div class="bg-pc-gray p-6 rounded-lg border-b-4 border-pc-orange group hover:shadow-xl transition">
+                    <i class="fas fa-mountain-sun text-4xl text-pc-orange mb-4"></i>
+                    <h4 class="font-bold text-xl mb-2">Riesgo de Deslaves</h4>
+                    <p class="text-sm text-gray-600 mb-4">Monitoreo de zonas montañosas y laderas críticas en la zona
+                        alta de Tapachula.</p>
+                    <button class="text-xs font-bold uppercase text-pc-orange group-hover:underline">Ver Mapa
+                        Interactivo →</button>
+                </div>
+                <div class="bg-pc-gray p-6 rounded-lg border-b-4 border-pc-orange group hover:shadow-xl transition">
+                    <i class="fas fa-fire-flame-curved text-4xl text-pc-orange mb-4"></i>
+                    <h4 class="font-bold text-xl mb-2">Incendios Forestales</h4>
+                    <p class="text-sm text-gray-600 mb-4">Indicadores de puntos de calor y zonas de pastizales bajo
+                        vigilancia.</p>
+                    <button class="text-xs font-bold uppercase text-pc-orange group-hover:underline">Ver Mapa
+                        Interactivo →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="capacitacion" class="py-20 bg-pc-gray">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold uppercase mb-12 border-l-8 border-pc-orange pl-4">Cursos y Conferencias</h3>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-xl shadow-sm">
+                    <h4 class="text-xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-graduation-cap mr-3 text-pc-orange"></i> Programa de Capacitación
+                    </h4>
+                    <p class="text-gray-600 mb-6">Ofrecemos cursos para empresas, escuelas y sociedad civil sobre
+                        primeros auxilios, evacuación e incendios.</p>
+                    <div class="bg-pc-gray p-6 rounded-lg">
+                        <h5 class="font-bold text-sm uppercase mb-4 text-pc-orange italic">Requisitos Generales:</h5>
+                        <ul class="text-sm space-y-3 text-gray-700">
+                            <li><i class="fas fa-check mr-2 text-green-600"></i> Oficio de solicitud dirigido a la
+                                Dirección de Protección Civil.</li>
+                            <li><i class="fas fa-check mr-2 text-green-600"></i> Relación de participantes (nombre y
+                                CURP).</li>
+                            <li><i class="fas fa-check mr-2 text-green-600"></i> Espacio físico adecuado (para cursos
+                                presenciales).</li>
+                            <li><i class="fas fa-check mr-2 text-green-600"></i> Cubrir cuota de recuperación (si
+                                aplica).</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="bg-white p-6 rounded-lg border border-gray-200 flex justify-between items-center">
+                        <div>
+                            <span class="text-xs font-bold text-pc-orange">PRÓXIMA FECHA</span>
+                            <p class="font-bold">Primeros Auxilios Básicos</p>
+                        </div>
+                        <button class="bg-pc-orange text-white px-4 py-2 rounded text-xs font-bold">Inscribirse</button>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg border border-gray-200 flex justify-between items-center">
+                        <div>
+                            <span class="text-xs font-bold text-pc-orange">CONFERENCIA</span>
+                            <p class="font-bold">Prevención de Riesgos en el Hogar</p>
+                        </div>
+                        <button class="bg-pc-orange text-white px-4 py-2 rounded text-xs font-bold">Inscribirse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="noticias" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-2/3">
+                    <h3 class="text-3xl font-bold uppercase mb-10">Avisos e Informes</h3>
+                    <div class="space-y-8">
+                        <div class="flex gap-6 items-start pb-8 border-b border-gray-100">
+                            <div class="text-center bg-pc-gray p-3 rounded">
+                                <span class="block text-2xl font-bold">08</span>
+                                <span class="text-xs uppercase">Feb</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-xl hover:text-pc-orange cursor-pointer">Inauguración de Punto
+                                    de Auxilio: Sector Sur</h4>
+                                <p class="text-gray-500 mt-2">Nueva ubicación estratégica para reducir tiempos de
+                                    respuesta ante emergencias en la zona de plazas comerciales.</p>
+                                <span
+                                    class="inline-block mt-4 text-xs font-bold text-pc-orange uppercase tracking-widest">Sucursales
+                                    y Locaciones</span>
+                            </div>
+                        </div>
+                        <div class="flex gap-6 items-start">
+                            <div class="text-center bg-pc-gray p-3 rounded">
+                                <span class="block text-2xl font-bold">06</span>
+                                <span class="text-xs uppercase">Feb</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-xl hover:text-pc-orange cursor-pointer">Informe de Puntos de
+                                    Interés: Refugios Temporales</h4>
+                                <p class="text-gray-500 mt-2">Actualización del estado de los inmuebles habilitados como
+                                    refugios ante la temporada de lluvias.</p>
+                                <span
+                                    class="inline-block mt-4 text-xs font-bold text-pc-orange uppercase tracking-widest">Puntos
+                                    de Interés</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 bg-pc-gray p-8 rounded-2xl border border-gray-200">
+                    <h4 class="font-bold text-xl mb-6 uppercase italic border-b-2 border-pc-orange pb-2">Información
+                        Relevante</h4>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-sm">
+                                <i class="fas fa-location-dot text-pc-orange"></i>
+                            </div>
+                            <span class="text-sm font-medium">Nueva Locación: Base Operativa Norte</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-sm">
+                                <i class="fas fa-bullhorn text-pc-orange"></i>
+                            </div>
+                            <span class="text-sm font-medium">Aviso: Actualización de Atlas de Riesgo</span>
+                        </div>
+                        <hr>
+                        <p class="text-xs text-gray-400 text-center italic leading-relaxed">
+                            "La seguridad de Tapachula es compromiso de todos. Mantente informado a través de nuestros
+                            canales oficiales."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-pc-dark-gray text-white py-12 px-6">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <h5 class="text-pc-orange font-bold uppercase mb-6 tracking-tighter">Protección Civil Tapachula</h5>
+                <p class="text-sm text-gray-400 leading-relaxed">Organización dedicada a la prevención, mitigación y
+                    respuesta ante situaciones de riesgo en la ciudad de Tapachula, Chiapas.</p>
+            </div>
+            <div>
+                <h5 class="text-pc-orange font-bold uppercase mb-6 tracking-tighter">Contacto Directo</h5>
+                <ul class="text-sm space-y-4">
+                    <li class="flex items-center gap-3"><i class="fas fa-phone-alt"></i> Oficina: [Proporcionar Número]
+                    </li>
+                    <li class="flex items-center gap-3"><i class="fas fa-envelope"></i> pcivil@tapachula.gob.mx</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-map-marker-alt"></i> Tapachula de Córdova y
+                        Ordóñez, Chiapas.</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-pc-orange font-bold uppercase mb-6 tracking-tighter">Acciones Preventivas</h5>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-600 px-3 py-1 rounded-full text-[10px] uppercase font-bold">Simulacros</span>
+                    <span class="bg-gray-600 px-3 py-1 rounded-full text-[10px] uppercase font-bold">Atlas de
+                        Riesgo</span>
+                    <span class="bg-gray-600 px-3 py-1 rounded-full text-[10px] uppercase font-bold">Cursos 2026</span>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto mt-12 pt-8 border-t border-gray-700 text-center text-xs text-gray-500 italic">
+            © 2026 Protección Civil Tapachula. Todos los derechos reservados.
+        </div>
+    </footer>
+
+</body>
+
+</html>
